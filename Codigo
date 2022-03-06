@@ -1,0 +1,4 @@
+nome = input('Digite seu nome: ')
+salario = float(input('Digite seu salário atual? R$ '))
+novo_salario = salario + (salario * 15/100)
+print(nome, f', seu salário já atualizado é: ', novo_salario)
